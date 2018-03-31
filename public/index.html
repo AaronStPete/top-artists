@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Top Artists</title>
-    <link rel="stylesheet" href="/screen.css">
+    <link rel="stylesheet" href="./screen.css">
   </head>
-  <body>
-    <h1>Hello, World!</h1>
-    <script src="/main.js" charset="utf-8"></script>
+  <body ng-app="mainApp" ng-controller="mainController">
+<!-- Create and user a template file for an artist. This template should display the picture that came with the artist, the artist name, as well as the playcount and listencount -->
+<section ng-repeat="artist in artists" ng-class="'artistClass'" ng-include="'./templates/artistTemplate.html'"></section>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="./main.js" charset="utf-8"></script>
   </body>
 </html>

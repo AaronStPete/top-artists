@@ -1,0 +1,9 @@
+http://ws.audioscrobbler.com/2.0/
+/2.0/?method=chart.gettopartists&api_key=YOUR_API_KEY&format=json
+
+http://ws.audioscrobbler.com/2.0/?method=chart.gettopartists&api_key=57bf24c3942a509ae76819c5ba3f5fcc&format=json
+
+Application name	Top Artists
+API key	57bf24c3942a509ae76819c5ba3f5fcc
+Shared secret	39239fb9611c2a83702985ceaf21433f
+Registered to	AaronStPete

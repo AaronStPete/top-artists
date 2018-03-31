@@ -6,4 +6,19 @@ body {
   margin: 0;
   min-height: 100%;
   font: 16px / 1 sans-serif;
+  display: flex;
+  flex-flow: row wrap;
+  background-color: lightgrey;
+}
+
+.artistClass {
+  display: flex;
+  width: 15em;
+  border: 1px grey solid;
+  border-radius: 5px;
+  margin: 1em;
+  padding: 1em;
+  flex-direction: column;
+  text-align: center;
+  background-color: white;
 }
